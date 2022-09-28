@@ -7,7 +7,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.11.62",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
@@ -18,6 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "ts-node start:dev",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,5 +39,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "index.js",
+  "repository": "git@github.com:jbravoh/url-shortener.git",
+  "author": "jbravoh <jbravoharriott@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
   }
 }
